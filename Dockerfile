@@ -1,5 +1,5 @@
 # Build stage
-FROM node:14-alpine AS builder
+FROM node:16.3.0-alpine3.13 as build-stage
 
 RUN npm install -g @angular/cli
 
